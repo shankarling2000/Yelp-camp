@@ -1,19 +1,19 @@
-YelpCamp
+#YelpCamp
 
 A Node.js web application project from the Udemy course - The Web Developer Bootcamp by Colt Steele. It is a web application designed to add, rate and review different campgrounds, different users(read campers) can put in their comments and concerns, so that it is a well informed and well prepared camping trip for other users.
 Live Demo
 
 For Live Demo go to https://yelp-camp-010.herokuapp.com/
-Features
+##Features
 
-    Authentication:
+    ####Authentication:
         User login with username and password
 
-    Authorization
+    ####Authorization
         One cannot manage posts and view user profile without being authenticated
         One cannot edit or delete posts and comments created by other users
 
-    Manage campground posts with basic functionalities:
+    ####Manage campground posts with basic functionalities:
 
         Create, edit and delete posts and comments
 
@@ -23,25 +23,25 @@ Features
 
         Search existing campgrounds
 
-    Manage user account with basic functionalities
+    ####Manage user account with basic functionalities
 
         Flash messages responding to users' interaction with the app
 
         Responsive web design
 
-    Custom Enhancements (under construction)
+    ####Custom Enhancements (under construction)
 
         Update campground photos when editing campgrounds
 
         Update personal information on profile page
 
-Getting Started
+##Getting Started
 
 This app contains API secrets and passwords that have been hidden deliberately, so the app cannot be run with its features on your local machine. However, feel free to clone this repository if necessary.
 
-    Clone or download this repository
+    ####Clone or download this repository
 
-Install dependencies
+####Install dependencies
 
 npm install
 Built with
@@ -60,6 +60,6 @@ Built with
     Heroku
     Cloud9
 
-License
+##License
 
 MIT
